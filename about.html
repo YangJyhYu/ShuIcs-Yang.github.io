@@ -28,7 +28,8 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand" href="index.html">世新大學資訊傳播學系<br>Shih Hsin University<br>Department of Information and Communications</br></a>
+        <a class="navbar-brand" href="index.html">
+		<span style="font-family:Microsoft JhengHei;">世新大學資訊傳播學系<br>Shih Hsin University<br>Department of Information and Communications</br></span></a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fa fa-bars"></i>
@@ -53,14 +54,14 @@
     </nav>
 
     <!-- Page Header -->
-    <header class="masthead" style="background-image: url('img/about-bg.jpg')">
+    <header class="masthead" style="background-image: url('img/學系園地.jpg')">
       <div class="overlay"></div>
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
             <div class="page-heading">
-              <h1>學系園地</h1>
-              <span class="subheading">學生、老師與系之間的互動</span>
+              <h1><span style="font-family:Microsoft JhengHei;">學系園地</span></h1>
+              <span class="subheading"><span style="font-family:Microsoft JhengHei;">學生、老師與系之間的互動</span>
             </div>
           </div>
         </div>
@@ -71,9 +72,100 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit, fuga atque ea nobis sit soluta odio, adipisci quas excepturi maxime quae totam ducimus consectetur?</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius praesentium recusandae illo eaque architecto error, repellendus iusto reprehenderit, doloribus, minus sunt. Numquam at quae voluptatum in officia voluptas voluptatibus, minus!</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequuntur magnam, excepturi aliquid ex itaque esse est vero natus quae optio aperiam soluta voluptatibus corporis atque iste neque sit tempora!</p>
+          <h2 class="post-title">
+	    <p><span style="font-family:Microsoft JhengHei;"><strong>資傳論壇</strong></span></p>
+		</h2>
+          <p><span style="font-family:Microsoft JhengHei;"><strong>想跟資傳的大家討論課目、報告、活動，甚至一些資傳小八卦</strong></span></p>
+		<p><span style="font-family:Microsoft JhengHei;"><strong>註冊屬於你的資傳帳號吧！</strong></span></p>
+		</h2>
+		  <!-- Contact Form - Enter your email address on line 19 of the mail/contact_me.php file to make this form work. -->
+          <!-- WARNING: Some web hosts do not allow emails to be sent through forms to common mail hosts like Gmail or Yahoo. It's recommended that you use a private domain email address! -->
+          <!-- To use the contact form, your site must be on a live web host with PHP! The form will not work locally! -->
+          <form name="sentMessage" id="contactForm" novalidate>
+            <div class="control-group">
+              <div class="form-group floating-label-form-group controls">
+                <label>你的名字</label>
+				<span style="font-family:Microsoft JhengHei;">
+                <input type="text" class="form-control" placeholder="你的名字" id="name" required data-validation-required-message="Please enter your name."></span>
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="form-group floating-label-form-group controls">
+                <label>學號</label>
+				<span style="font-family:Microsoft JhengHei;">
+                <input type="email" class="form-control" placeholder="學號" id="email" required data-validation-required-message="Please enter your email address."></span>
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="form-group col-xs-12 floating-label-form-group controls">
+                <label>email</label>
+				<span style="font-family:Microsoft JhengHei;">
+                <input type="tel" class="form-control" placeholder="email" id="phone" required data-validation-required-message="Please enter your phone number."></span>
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="form-group col-xs-12 floating-label-form-group controls">
+                <label>密碼</label>
+				<span style="font-family:Microsoft JhengHei;">
+                <input rows="5" class="form-control" placeholder="密碼" id="message" required data-validation-required-message="Please enter a message."></span>
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <br>
+            <div id="success"></div>
+            <div class="form-group">
+              <button type="submit" class="btn btn-primary" id="sendMessageButton">Send</button>
+            </div>
+          </form>
+        </div>
+         <!-- Main Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <h2 class="post-title">
+	    <br><p><span style="font-family:Microsoft JhengHei;"><strong>資傳故事</strong></span></p>
+		</h2>
+          <p><span style="font-family:Microsoft JhengHei;"><strong>老師分享過去教學經驗、實務經驗，同學們說說平常在資傳有趣的事，一起創造許多資傳傳說，下方設置留言區，及時的回饋、互動</strong></span></p>
+		<p><span style="font-family:Microsoft JhengHei;"><strong>快點來說說你的故事吧！</strong></span></p>
+		</h2>
+		  <!-- Contact Form - Enter your email address on line 19 of the mail/contact_me.php file to make this form work. -->
+          <!-- WARNING: Some web hosts do not allow emails to be sent through forms to common mail hosts like Gmail or Yahoo. It's recommended that you use a private domain email address! -->
+          <!-- To use the contact form, your site must be on a live web host with PHP! The form will not work locally! -->
+          <form name="sentMessage" id="contactForm" novalidate>
+            <div class="control-group">
+              <div class="form-group floating-label-form-group controls">
+                <label>你的名字(可匿名)</label>
+				<span style="font-family:Microsoft JhengHei;">
+                <input type="text" class="form-control" placeholder="你的名字(可匿名)" id="name" required data-validation-required-message="Please enter your name."></span>
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="form-group floating-label-form-group controls">
+                <label>主旨</label>
+				<span style="font-family:Microsoft JhengHei;">
+                <input type="email" class="form-control" placeholder="主旨" id="email" required data-validation-required-message="Please enter your email address."></span>
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="form-group floating-label-form-group controls">
+                <label>你的故事</label>
+				<span style="font-family:Microsoft JhengHei;">
+                <textarea rows="5" class="form-control" placeholder="你的故事" id="phone" required data-validation-required-message="Please enter your phone number."></textarea></span>
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <br>
+            <div id="success"></div>
+            <div class="form-group">
+              <button type="submit" class="btn btn-primary" id="sendMessageButton">Send</button>
+            </div>
+          </form>
+        </div>
         </div>
       </div>
     </div>
@@ -87,31 +179,31 @@
           <div class="col-lg-8 col-md-10 mx-auto">
             <ul class="list-inline text-center">
               <li class="list-inline-item">
-                <a href="#">
+                <a href="">
                   <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                    <i class=""></i>
+                    <i class=""></i>
                   </span>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="#">
+                <a href="">
                   <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                    <i class=""></i>
+                    <i class=""></i>
                   </span>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="#">
+                <a href="">
                   <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                    <i class=""></i>
+                    <i class=""></i>
                   </span>
                 </a>
               </li>
             </ul>
-            <p class="copyright text-muted">Copyright &copy; Your Website 2018</p>
+            <p class="copyright text-muted"></p>
           </div>
         </div>
       </div>
